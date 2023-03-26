@@ -1,0 +1,69 @@
+
+
+.top-container{
+    background-color: aqua;
+    width: 100%;
+    height: 100vh;
+}
+
+.sun{
+    position: absolute;
+    left: 10rem;
+    width: 15%
+}
+
+.cloud{
+    position: absolute;
+    right: 18rem;
+    width: 15%;
+}
+
+.sea{
+    position: absolute;
+    bottom: 0rem;
+    width: 100%;
+}
+
+.fish-1{
+    position: absolute;
+    bottom: 10rem;
+    left: 4rem;
+    width: 15%;
+}
+
+.fish-2{
+    position: absolute;
+    bottom: 8rem;
+    left: 10rem;
+    width: 15%;
+}
+
+.land{
+    position: absolute;
+    bottom: 0rem;
+    left: 20rem;
+    width: 45%;
+}
+
+.luffy{
+    position: absolute;
+    bottom: 0rem;
+    right: 30rem;
+    width: 20%;
+}
+
+.text-box{
+    position: absolute;
+    right: 5rem;
+    bottom: 8rem;
+    width: 30%;
+}
+
+.top-text{
+    color: #2D2727;
+    position: absolute;
+    right: 9rem;
+    bottom: 11rem;
+    font-size: 4rem;
+    font-family: 'Caveat', cursive;
+}
