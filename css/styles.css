@@ -1,5 +1,3 @@
-
-
 .top-container{
     background-color: aqua;
     width: 100%;
@@ -8,14 +6,28 @@
 
 .sun{
     position: absolute;
-    left: 10rem;
-    width: 15%
+    left: 8rem;
+    width: 20%
 }
 
 .cloud{
     position: absolute;
-    right: 18rem;
+    right: 10rem;
+    width: 20%;
+}
+
+.bird1{
+    position: absolute;
+    top: 3rem;
+    right: 23rem;
     width: 15%;
+}
+
+.bird2{
+    position: absolute;
+    top: 10rem;
+    right: 20rem;
+    width: 10%;
 }
 
 .sea{
@@ -52,18 +64,73 @@
     width: 20%;
 }
 
-.text-box{
+.hey{
     position: absolute;
-    right: 5rem;
     bottom: 8rem;
-    width: 30%;
+    right: 15rem;
+    width: 20%;
 }
 
-.top-text{
-    color: #2D2727;
-    position: absolute;
-    right: 9rem;
-    bottom: 11rem;
-    font-size: 4rem;
-    font-family: 'Caveat', cursive;
+@media screen and (max-width : 576px) {
+    .land{
+        position: absolute;
+        bottom: 0rem;
+        left: 5rem;
+        width: 80%;
+    }
+
+    .luffy{
+        position: absolute;
+        bottom: 0rem;
+        right: 7rem;
+        width: 35%;
+    }
+
+    .hey{
+        position: absolute;
+        bottom: 6rem;
+        right: 2rem;
+        width: 25%;
+    }
+
+    .fish-1{
+        position: absolute;
+        bottom: 3rem;
+        left: 3rem;
+        width: 15%;
+    }
+    
+    .fish-2{
+        position: absolute;
+        bottom: 2rem;
+        left: 5rem;
+        width: 15%;
+    }
+
+    .sun{
+        position: absolute;
+        left: 0rem;
+        width: 50%
+    }
+
+    .cloud{
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        width: 45%;
+    }
+
+    .bird1{
+        position: absolute;
+        top: 9rem;
+        right: 12rem;
+        width: 20%;
+    }
+    
+    .bird2{
+        position: absolute;
+        top: 13rem;
+        right: 8rem;
+        width: 15%;
+    }
 }
