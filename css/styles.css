@@ -1,4 +1,4 @@
-.body{
+body{
     padding: 0%;
     margin: 0%;
     border: 0%;
@@ -230,5 +230,61 @@
         top: 13rem;
         right: 8rem;
         width: 20%;
+    }
+
+    .tree{
+        position: absolute;
+        bottom: 0rem;
+        width: 50%;
+    }
+
+    .akatsuki-1{
+        position: absolute;
+        top: 5rem;
+        left: 5rem;
+        width: 30%;
+    }
+    
+    .akatsuki-2{
+        position: absolute;
+        top: 13rem;
+        left: 8rem;
+        width: 25%;
+    }
+
+    .sun-mid{
+        position: absolute;
+        top: 0rem;
+        right: 0rem;
+        width: 50%;
+    }
+
+    .naruto{
+        position: absolute;
+        bottom: 0rem;
+        left: 11rem;
+        width: 20%;
+    }
+
+    .kakashi{
+        position: absolute;
+        bottom: 0rem;
+        right: 0rem;
+        width: 30%;
+    }
+
+    .chat{
+        position: absolute;
+        bottom: 8rem;
+        right: 8.5rem;
+        width: 19%;
+    }
+
+    .second-text{
+        font-family: 'Josefin Sans', sans-serif;
+        position: absolute;
+        bottom: 10rem;
+        right: 9rem;
+        font-size: small;
     }
 }
