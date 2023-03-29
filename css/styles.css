@@ -1,7 +1,17 @@
+.body{
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+}
+
 .top-container{
     background-color: aqua;
-    width: 100%;
+    position: relative;
     height: 100vh;
+    width: 100vw;
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
 }
 
 .sun{
@@ -16,14 +26,14 @@
     width: 20%;
 }
 
-.bird1{
+.bird-1{
     position: absolute;
     top: 3rem;
     right: 23rem;
     width: 15%;
 }
 
-.bird2{
+.bird-2{
     position: absolute;
     top: 10rem;
     right: 20rem;
@@ -69,6 +79,94 @@
     bottom: 8rem;
     right: 15rem;
     width: 20%;
+}
+
+.mid-container{
+    background-color: #FFEBB4;
+    position: relative;
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+    width: 100vw;
+    height: 100vh;
+}
+
+.sun-mid{
+    position: absolute;
+    top: 0rem;
+    right: 10rem;
+    width: 25%;
+}
+
+.akatsuki-1{
+    position: absolute;
+    top: 0rem;
+    left: 25rem;
+    width: 15%;
+}
+
+.akatsuki-2{
+    position: absolute;
+    top: 8rem;
+    left: 35rem;
+    width: 10%;
+}
+
+.grass{
+    position: absolute;
+    bottom: 0rem;
+    width: 100%;
+}
+
+.tree{
+    position: absolute;
+    bottom: 0rem;
+    width: 30%;
+}
+
+.naruto{
+    position: absolute;
+    bottom: 0rem;
+    left: 35rem;
+    width: 15%;
+}
+
+.kakashi{
+    position: absolute;
+    bottom: 0rem;
+    right: 0rem;
+    width: 20%;
+}
+
+.chat{
+    position: absolute;
+    bottom: 15rem;
+    right: 28.5rem;
+    width: 17%;
+}
+
+.second-text{
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    bottom: 20.5rem;
+    right: 30rem;
+}
+
+.bottom-container{
+    background-color: #443C68;
+    position: relative;
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+    width: 100vw;
+    height: 100vh;
+}
+
+.goku{
+    position: absolute;
+    bottom: 0rem;
+    left: 20rem;
+    width: 30%;
 }
 
 @media screen and (max-width : 576px) {
@@ -120,14 +218,14 @@
         width: 45%;
     }
 
-    .bird1{
+    .bird-1{
         position: absolute;
         top: 9rem;
         right: 12rem;
         width: 25%;
     }
     
-    .bird2{
+    .bird-2{
         position: absolute;
         top: 13rem;
         right: 8rem;
