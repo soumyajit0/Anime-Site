@@ -4,6 +4,16 @@ body{
     border: 0%;
 }
 
+.second-page{
+    background-color: #B2A4FF;
+}
+
+.list{
+    width: 5%;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
 .home{
     position: fixed;
     left: 0rem;
@@ -217,6 +227,21 @@ body{
     position: absolute;
     top: 7rem;
     left: 32rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+  
+.grid-item {
+    text-align: center;
+}
+  
+.grid-item img {
+    max-width: 25%;
+    height: auto;
 }
 
 @media screen and (max-width : 576px) {
