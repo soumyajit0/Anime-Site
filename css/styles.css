@@ -4,6 +4,13 @@ body{
     border: 0%;
 }
 
+.home{
+    position: fixed;
+    left: 0rem;
+    top: 0rem;
+    width: 5%;
+}
+
 .top-container{
     background-color: aqua;
     position: relative;
@@ -146,10 +153,13 @@ body{
 }
 
 .second-text{
-    font-family: 'Josefin Sans', sans-serif;
-    position: absolute;
     bottom: 20.5rem;
     right: 30rem;
+}
+
+.text{
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
 }
 
 .bottom-container{
@@ -165,8 +175,48 @@ body{
 .goku{
     position: absolute;
     bottom: 0rem;
-    left: 20rem;
+    left: 15rem;
     width: 30%;
+}
+
+.aot{
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    width: 30%;
+}
+
+.shinchan{
+    position: absolute;
+    bottom: 0rem;
+    right: 28rem;
+    width: 30%;
+}
+
+.night-land{
+    position: absolute;
+    bottom: 0rem;
+    width: 100%;
+}
+
+.moon{
+    position: absolute;
+    left: 0rem;
+    top: 0rem;
+    width: 10%;
+}
+
+.banner{
+    position: absolute;
+    bottom: 10rem;
+    right: 20.5rem;
+    width: 45%;
+}
+
+.third-text{
+    position: absolute;
+    top: 7rem;
+    left: 32rem;
 }
 
 @media screen and (max-width : 576px) {
@@ -286,5 +336,46 @@ body{
         bottom: 10rem;
         right: 9rem;
         font-size: small;
+    }
+
+    .home{
+        position: fixed;
+        left: 0rem;
+        top: 0rem;
+        width: 20%;
+    }
+    .goku{
+        position: absolute;
+        bottom: 0rem;
+        left: 5rem;
+        width: 40%;
+    }
+
+    .shinchan{
+        position: absolute;
+        bottom: 0rem;
+        right: 5rem;
+        width: 40%;
+    }
+
+    .aot{
+        position: absolute;
+        top: 0rem;
+        right: 0rem;
+        width: 40%;
+    }
+
+    .third-text{
+        position: absolute;
+        top: 24rem;
+        left: 8rem;
+        font-size: medium;
+    }
+
+    .banner{
+        position: absolute;
+        bottom: 5.5rem;
+        right: 3.5rem;
+        width: 70%;
     }
 }
